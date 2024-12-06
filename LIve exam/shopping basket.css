@@ -1,0 +1,49 @@
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Basket Item Styles */
+.basket-item {
+    background-color: #f9f9f9;
+}
+
+/* Basket Item Styles */
+.item-image {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image fills the box without distortion */
+    border-radius: 8px; /* Add slight rounding if desired */
+}
+
+
+.item-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.item-price {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.item-total {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Order Summary */
+.shadow-sm {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.btn-success {
+    font-size: 1rem;
+    font-weight: 700;
+}

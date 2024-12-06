@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <!-- Basket Items -->
+            <div class="col-lg-8">
+                <!-- Heirloom Tomato -->
+                <div class="d-flex align-items-center mb-4 p-3 shadow-sm rounded basket-item">
+                    <img src="tomato.jpg" alt="Heirloom Tomato" class="item-image me-3">
+                    <div class="flex-grow-1">
+                        <h5 class="item-name mb-1">Heirloom tomato</h5>
+                        <p class="item-price mb-0">$5.99 / kg</p>
+                    </div>
+                    <div class="item-total fw-bold">$5.99</div>
+                </div>
+                <!-- Organic Ginger -->
+                <div class="d-flex align-items-center mb-4 p-3 shadow-sm rounded basket-item">
+                    <img src="ginger.jpg" alt="Organic Ginger" class="item-image me-3">
+                    <div class="flex-grow-1">
+                        <h5 class="item-name mb-1">Organic ginger</h5>
+                        <p class="item-price mb-0">$12.99 / kg</p>
+                    </div>
+                    <div class="item-total fw-bold">$6.50</div>
+                </div>
+                <!-- Sweet Onion -->
+                <div class="d-flex align-items-center p-3 shadow-sm rounded basket-item">
+                    <img src="onion.jpg" alt="Sweet Onion" class="item-image me-3">
+                    <div class="flex-grow-1">
+                        <h5 class="item-name mb-1">Sweet onion</h5>
+                        <p class="item-price mb-0">$2.99 / kg</p>
+                    </div>
+                    <div class="item-total fw-bold">$14.95</div>
+                </div>
+            </div>
+            <!-- Order Summary -->
+            <div class="col-lg-4">
+                <div class="shadow-sm rounded p-4">
+                    <h5 class="mb-3">Order summary</h5>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Subtotal</span>
+                        <span>$27.44</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Shipping</span>
+                        <span>$3.99</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax</span>
+                        <span>$2.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between fw-bold mb-4">
+                        <span>Total</span>
+                        <span>$33.43</span>
+                    </div>
+                    <button class="btn btn-success w-100">Continue to payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
